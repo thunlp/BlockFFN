@@ -1,0 +1,14 @@
+[
+    {
+        "dataset_name": "sample_dataset",
+        "task_name": "sample_dataset",
+        "abs_weight": 1.0,
+        "path": "../../dataset/sample_dataset",
+        "version": "",
+        "ave_tokens_per_line": 430,
+        "nlines": 158046915,
+        "transforms": "transforms/script.py",
+        "filesize": 378.7314326958731,
+        "total_tokens": 0
+    }
+]

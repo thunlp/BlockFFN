@@ -1,0 +1,3 @@
+[submodule "inference/src/cutlass"]
+	path = inference/src/cutlass
+	url = https://github.com/NVIDIA/cutlass.git

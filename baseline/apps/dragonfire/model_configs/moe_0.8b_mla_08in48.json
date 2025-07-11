@@ -1,0 +1,33 @@
+{
+    "vocab_size": 122753,
+    "dropout_p": 0.0,
+    "eps": 1e-05,
+    "half": true,
+    "half_type": "bf16",
+    "use_flash_attn": true,
+    "flash_attn_mask_shape": "2d",
+    "dim_model": 1536,
+    "dim_ff": 128,
+    "attention_type": "mla",
+    "num_heads": 12,
+    "dim_q_nope_head": 128,
+    "dim_q_pe_head": 64,
+    "dim_q_lora": 768,
+    "dim_kv_lora": 256,
+    "dim_v_head": 128,
+    "num_layers": 32,
+    "activate_fn": "silu",
+    "init_std": 0.10,
+    "scale": true,
+    "scale_emb": 12,
+    "scale_depth": 1.4,
+    "model_type": "cpm",
+    "architectures": [
+        "CPMForCausalLM"
+    ],
+    "qk_norm": false,
+    "tie_lm_head": false,
+    "ffn_gated": false,
+    "moe_num_experts": 48,
+    "moe_top_k": 8
+}
